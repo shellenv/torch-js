@@ -2,10 +2,17 @@
 # yarn lockfile v1
 
 
-"@types/bindings@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@types/bindings/-/bindings-1.3.0.tgz#e9cd75a96d7abc1ecba0dc7eecb09a9f96cd417c"
-  integrity sha512-mTWOE6wC64MoEpv33otJNpQob81l5Pi+NsUkdiiP8EkESraQM94zuus/2s/Vz2Idy1qQkctNINYDZ61nfG1ngQ==
+"@types/bindings@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@types/bindings/-/bindings-1.5.1.tgz#bc9c00f188fc0af4b0a18d065aaa145e32498784"
+  integrity sha512-8HzueDeoxGXdsJ0Ep7TOXHGN+woRTWa1bAds30r5we7PCC3P5zrSTRknePLn/KYAubgQv5t/1zkonnStHLCWOg==
+  dependencies:
+    "@types/node" "*"
+
+"@types/node@*":
+  version "16.11.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.6.tgz#6bef7a2a0ad684cf6e90fcfe31cecabd9ce0a3ae"
+  integrity sha512-ua7PgUoeQFjmWPcoo9khiPum3Pd60k4/2ZGXt18sm2Slk0W0xZTqt5Y0Ny1NyBiN1EVQ/+FaF9NcY4Qe6rwk5w==
 
 "@types/node@^10.12.10":
   version "10.12.10"
